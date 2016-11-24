@@ -1,0 +1,85 @@
+{  
+  "data":{  
+    "apps":{  
+      "header":"Apps",
+      "projects":[  
+        {  
+          "name":"Hex | The Walt Disney Studios",
+          "url":"",
+          "urlText":"Site Not Public",
+          "gifLarge":"",
+          "gifSmall":"",
+          "gifThumbnail":""
+        },
+        {  
+          "name":"Apploi",
+          "url":"https://jobs.apploi.com/search",
+          "urlText":"Apploi for Jobseekers",
+          "gifLarge":"",
+          "gifSmall":"",
+          "gifThumbnail":""
+        },
+        {  
+          "name":"Apploi Mobile",
+          "url":"",
+          "urlText":"Apploi for Jobseekers",
+          "gifLarge":"",
+          "gifSmall":"",
+          "gifThumbnail":""
+        },
+        {  
+          "name":"Beginning with Children",
+          "url":"http://beginningwithchildren.com",
+          "urlText":"BwC",
+          "gifLarge":"",
+          "gifSmall":"",
+          "gifThumbnail":""
+        }
+      ]
+    },
+    "personal":{  
+      "header":"Personal Projects",
+      "projects":[  
+        {  
+          "name":"Krull (Python Web Framework)",
+          "url":"https://github.com/mattrwh/krull",
+          "urlText":"Krull"
+        },
+        {  
+          "name":"Python Injectables",
+          "url":"https://github.com/mattrwh/injectables",
+          "urlText":"Injectables"
+        }
+      ]
+    },
+    "experience":[  
+      "I solve difficult problems at scale, and implement robust microservices architectures",
+      "I integrate 3rd party APIs through robust defensive programming techniques",
+      "I always automate development and tests, instrument monitoring, and engage in continuous deployment.",
+      "I excel at constructing smart and sane object oriented abstraction.",
+      "I am always a champion of code quality, I engage in frequent peer reviews, and strive to never compromise",
+      "I follow modern web standards (RESTful APIS, OAuth, SPA, progressive web, and JWT)"
+    ],
+    "values":[  
+      "Never hack through problems.",
+      "Never stop learning new things; share new discoveries with peers.",
+      "There is no such thing as magic, pull back the veil; pursue a deeper understanding.",
+      "Never be satisfied just knowing that it works; know why it works.",
+      "Value logic and reasoning when making technical decisions.",
+      "Build quality software.",
+      "Write automated tests to ensure code works, and continues to work.",
+      "Write code that is as simple as possible for others to understand.",
+      "Pursue the building of system architecture correctly from the beginning.",
+      "Understand that coding is an iterative, evolutionary experience.",
+      "Prefer projects that provide an opportunity to learn.",
+      "Constantly better my understanding of quality code construction practices.",
+      "Experiment with new technologies, use the best tools for the job.",
+      "Provide realistic project estimates.",
+      "Always be pleasant to work with.",
+      "Push hard to meet important deadlines, never cut corners, except when not doing so conflicts with immediate business needs.",
+      "Never leave sloppy bugs for others to deal with.",
+      "Never leave broken code, even if written by someone else.",
+      "Continually and actively improve the development processes of the projects I work on."
+    ]
+  }
+}
