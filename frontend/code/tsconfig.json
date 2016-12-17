@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "outDir": "./compiled",
+        "jsx": "react"
+    },
+    "include": [
+        "client/**/*",
+        "servers/**/*"
+    ]
+}

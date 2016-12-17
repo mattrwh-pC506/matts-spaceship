@@ -13,7 +13,10 @@ export default class Button extends Component {
         const { busy, on_click, text } = this.props;
 
         const markup = (
-            <div><span className="spinner" > </span>< button disabled= { busy } onClick= { on_click } > { text } < /button> < /div >
+            <div>
+                <span className="spinner"></span>
+                <button disabled={ busy } onClick={ on_click }>{ text }</button>
+            </div >
 		);
 
         return markup;

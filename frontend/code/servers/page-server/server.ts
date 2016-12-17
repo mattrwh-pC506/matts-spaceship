@@ -49,25 +49,16 @@ export default function(parameters) {
             // Will be inserted into server rendered webpage <head/>
             // (this `head()` function is optional and is not required)
             // (its gonna work with or without this `head()` parameter)
-            head: (url) => {
-                if (_development_) {
-                    // `devtools` just tampers with CSS styles a bit.
-                    // It's not required for operation and can be omitted.
-                    const script = devtools({ ...parameters, entry: 'main' });
-    return <script dangerouslySetInnerHTML={ { __html: script } } />;
-}
-			}
-		}
-	},
-common);
+        }
+    }, common);
 
-// Start webpage rendering server
-server.listen(configuration.webpage_server.http.port, function(error) {
-    if (error) {
-        log.error('Webpage rendering server shutdown due to an error', error);
-        throw error;
-    }
+    // Start webpage rendering server
+    server.listen(configuration.webpage_server.http.port, function(error) {
+        if (error) {
+            log.error('Webpage rendering server shutdown due to an error', error);
+            throw error;
+        }
 
-    log.info(`Webpage server is listening at http://localhost:${configuration.webpage_server.http.port}`);
-});
+        log.info(`Webpage server is listening at http://localhost:${configuration.webpage_server.http.port}`);
+    });
 }

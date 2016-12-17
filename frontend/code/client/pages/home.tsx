@@ -7,13 +7,11 @@ export default class Page extends Component {
         const husky = require('../../../assets/images/husky.jpg');
 
         const markup = (
-            <section className="content" >
-            { title("Home")}
-            < h1 >
-            Husky
-            < /h1>
-            < img src= { husky } />
-                </section>
+            <section className="content">
+                <span>{ title("Home")}</span>
+                <h1>Husky</h1>
+                <img src={ husky }/>
+            </section>
 		);
 
         return markup;

@@ -24,22 +24,20 @@ export default class Layout extends Component {
         ];
 
         const markup = (
-            <div className="content" >
-            { head(title, meta) }
-
-        {/* header */ }
-        <header>
-            {/* Navigation */ }
-        {/*<nav>*/ }
-        {/* main menu */ }
-        <Menu items={ menu_items } />
-        {/*</nav>*/ }
-        </header>
-
-        { this.props.children }
-
-        <footer></footer>
-            < /div>
+            <div className="content">
+                <span>{ head(title, meta) }</span>
+                
+                {/* header */ }
+                <header>
+                    {/* Navigation */ }
+                    {/*<nav>*/ }
+                    {/* main menu */ }
+                    <Menu items={ menu_items } />
+                    {/*</nav>*/ }
+                </header>
+                { this.props.children }
+                <footer></footer>
+            </div>
 		);
 
         return markup;

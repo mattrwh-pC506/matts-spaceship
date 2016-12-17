@@ -2,8 +2,8 @@
 exports.__esModule = true;
 exports["default"] = {
     server: {
-        input: '../../code/page-server/web server.ts',
-        output: '../../build/server/server.ts'
+        input: '../../code/compiled/servers/page-server/server.js',
+        output: '../../build/server/server.js'
     }
 };
 //# sourceMappingURL=universal-webpack-settings.js.map

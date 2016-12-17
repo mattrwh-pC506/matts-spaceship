@@ -1,1 +1,1 @@
-import * from './application';
+import './application';

@@ -12,9 +12,7 @@ export default class Wrapper extends Component {
         const { store } = this.props;
 
         const markup = (
-            <Provider store={ store } >
-            { this.props.children }
-            < /Provider>
+            <Provider store={ store }>{ this.props.children }</Provider>
 		);
 
         return markup;

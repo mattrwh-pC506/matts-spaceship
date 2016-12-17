@@ -7,14 +7,11 @@ export default class Not_found extends Component {
         const markup =
             (
                 <div>
-                { title("Page not found")}
-
-                < h1 >
-                Page not found
-                    < /h1>
-                    < /div>
+                    <span>{ title("Page not found") }</span>
+                    <h1>Page not found</h1>
+                </div>
 		)
 
-        return markup
+        return markup;
     }
 }
