@@ -1,0 +1,16 @@
+{
+  "author": {
+    "email": "mwhitt.w@gmail.com",
+    "name": "Custom Typings"
+  },
+  "dependencies": {},
+  "description": "Custom Typings",
+  "devDependencies": {},
+  "directories": {},
+  "main": "",
+  "name": "@types/custom-typings",
+  "optionalDependencies": {},
+  "peerDependencies": {},
+  "scripts": {},
+  "version": "0.0.1"
+}
