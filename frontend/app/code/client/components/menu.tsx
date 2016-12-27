@@ -9,7 +9,7 @@ export default class Menu extends Component<any, any> {
         const markup = (
             <ul className= "menu"> {
                 this.props.items.map((item, i) => {
-                    <li key={ i } >{ this.render_link(item) }</li>
+                    return <li key={ i } >{ this.render_link(item) }</li>
                 })
             }</ul>
         );
@@ -18,7 +18,7 @@ export default class Menu extends Component<any, any> {
 
     render_link(item) {
         if (item.link === '/') {
-            return <IndexLink to={ item.link } activeClassName= "menu-item-selected" className="menu-item">{ item.name }</IndexLink>;
+            return <IndexLink to={ item.link } activeClassName="menu-item-selected" className="menu-item">{ item.name }</IndexLink>;
         }
         return <Link to={ item.link } activeClassName="menu-item-selected" className="menu-item">{ item.name }</Link>;
     }

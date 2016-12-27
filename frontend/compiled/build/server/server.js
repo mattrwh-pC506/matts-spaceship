@@ -210,7 +210,7 @@ var Menu = (function (_super) {
         var markup = (React.createElement("ul", { className: "menu" },
             " ",
             this.props.items.map(function (item, i) {
-                React.createElement("li", { key: i }, _this.render_link(item));
+                return React.createElement("li", { key: i }, _this.render_link(item));
             })));
         return markup;
     };
@@ -304,7 +304,8 @@ var Layout = (function (_super) {
         var markup = (React.createElement("div", { className: "content" },
             React.createElement("span", null, react_isomorphic_render_1.head(title, meta)),
             React.createElement("header", null,
-                React.createElement(menu_1["default"], { items: menu_items })),
+                React.createElement("nav", null,
+                    React.createElement(menu_1["default"], { items: menu_items }))),
             this.props.children,
             React.createElement("footer", null)));
         return markup;

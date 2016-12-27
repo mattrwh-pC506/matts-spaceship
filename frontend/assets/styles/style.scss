@@ -113,13 +113,12 @@ section
 	border-bottom-style : solid;
 }
 
-.menu-item-selected
-{
+.menu-item-selected {
 	border-bottom-color : $active-color;
+    text-decoration: none;
 }
 
-header
-{
+header {
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 

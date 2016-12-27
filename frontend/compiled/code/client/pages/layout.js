@@ -29,7 +29,8 @@ var Layout = (function (_super) {
         var markup = (React.createElement("div", { className: "content" },
             React.createElement("span", null, react_isomorphic_render_1.head(title, meta)),
             React.createElement("header", null,
-                React.createElement(menu_1["default"], { items: menu_items })),
+                React.createElement("nav", null,
+                    React.createElement(menu_1["default"], { items: menu_items }))),
             this.props.children,
             React.createElement("footer", null)));
         return markup;

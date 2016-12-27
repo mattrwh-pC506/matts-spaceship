@@ -17,7 +17,7 @@ var Menu = (function (_super) {
         var markup = (React.createElement("ul", { className: "menu" },
             " ",
             this.props.items.map(function (item, i) {
-                React.createElement("li", { key: i }, _this.render_link(item));
+                return React.createElement("li", { key: i }, _this.render_link(item));
             })));
         return markup;
     };

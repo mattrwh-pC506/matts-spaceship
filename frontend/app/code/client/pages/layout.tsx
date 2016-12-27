@@ -31,10 +31,10 @@ export class Layout extends Component<any, any> {
                 {/* header */ }
                 <header>
                     {/* Navigation */ }
-                    {/*<nav>*/ }
+                    <nav>
                     {/* main menu */ }
                     <Menu items={ menu_items } />
-                    {/*</nav>*/ }
+                    </nav>
                 </header>
                 { this.props.children }
                 <footer></footer>
