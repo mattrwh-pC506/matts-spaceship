@@ -1,1 +1,0 @@
-{"version":3,"file":"webpack.config.client.js","sourceRoot":"","sources":["../../../app/configs/webpack/webpack.config.client.ts"],"names":[],"mappings":";AAAA,uDAAwD;AACxD,2EAAmD;AACnD,mDAA4C;AAE5C,mBAAwB,OAAO;IAC3B,MAAM,CAAC,wCAAoB,CAAC,2BAAa,EAAE,uCAAQ,EAAE,OAAO,CAAC,CAAA;AACjE,CAAC;;AAFD,+BAEC"}
