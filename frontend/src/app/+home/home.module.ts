@@ -4,7 +4,7 @@ import { NgModule } from "@angular/core";
 import { RouterModule } from "@angular/router";
 
 import { AttachModuleMetadata } from "mw-ng2-utils/decorators";
-import { BaseMetadata } from "mw-ng2-utils/impl";
+import { BaseModule } from "mw-ng2-utils/impl";
 
 import { HomeComponent } from "./home.component";
 import { routerConfig } from "./home.routing";
@@ -19,4 +19,4 @@ const providers = [];
     imports: imports,
     providers: providers,
 })
-export class HomeModule extends BaseMetadata { }
+export class HomeModule extends BaseModule { }

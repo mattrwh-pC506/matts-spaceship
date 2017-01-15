@@ -8,7 +8,7 @@ import { RouterModule } from "@angular/router";
 
 import { combineReducers } from "redux";
 import { AttachModuleMetadata } from "mw-ng2-utils/decorators";
-import { BaseMetadata } from "mw-ng2-utils/impl";
+import { BaseModule } from "mw-ng2-utils/impl";
 
 import { AppComponent } from './app.component';
 import { appRoutingProviders, routerConfig } from "./app.routing";
@@ -29,4 +29,4 @@ const providers = [appRoutingProviders];
     providers: providers,
     bootstrap: [AppComponent]
 })
-export class AppModule extends BaseMetadata { }
+export class AppModule extends BaseModule { }
