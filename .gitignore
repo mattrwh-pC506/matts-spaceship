@@ -19,3 +19,5 @@ frontend/npm-debug.log
 # test coverage folder
 backend/coverage
 frontend/coverage
+
+**__pycache__**
