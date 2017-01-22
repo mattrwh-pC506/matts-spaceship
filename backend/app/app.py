@@ -1,4 +1,5 @@
 import os
+import sys
 from pathlib import Path
 
 from krull.server import run_krull
@@ -19,5 +20,7 @@ configs = {
 }
 
 if __name__ == '__main__': 
+    shell_mode = "--shell" in sys.argv
     app = build_app(configs, db_factory=start_database_session)
-    run_krull(app)
+    if not shell_mode:
+        run_krull(app)

@@ -8,8 +8,7 @@ class Database:
         Session = sessionmaker(bind=engine)
         self.session = Session()
         self.engine = engine
-        self.Base = declarative_base()
-        self.Base.metadata.create_all(engine)
+        self.Base = declarative_base(bind=engine)
 
 def start_database_session(configs):
     engine = create_engine(configs.DATABASE_PATH)

@@ -1,4 +1,4 @@
-git+git://github.com/mattrwh/krull.git
+-e git+https://github.com/mattrwh/krull.git@459c02744e0e26365bc75e9bbedec17a60f2d126#egg=krull
 PyYAML==3.12
 SQLAlchemy==1.1.5
 Werkzeug==0.11.11
